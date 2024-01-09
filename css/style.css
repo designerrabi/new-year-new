@@ -1,0 +1,450 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+
+    font-weight: 400;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    margin-top:80px;
+}
+
+.newsletter-content{
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.newsletter-title{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+.newsletter-text{
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 10px 0;
+}
+.newsletter-content input[type='email'] {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px 15px;
+    margin: 20px 0;
+}
+.newsletter-content button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 10px;
+    border: none;
+    color: #fff;
+}
+
+
+
+
+
+.footer{
+    background: #070211;
+    height: 550px;
+   
+}
+/* Footer */
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.company-description p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 46px;
+    padding: 15px 0;
+    width: 400px;
+}
+.contact-list ul li{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    list-style: none;
+    font-weight: 500;
+    margin: 30px 0;
+}
+
+.social-link{
+    text-align: center;
+    padding: 50px 20px;
+}
+.social-link img{
+    padding: 10px 10px 10px 10px;
+}
+.footer-all-reserved{
+    display: flex;
+    justify-content: space-between;
+}
+.company-description .about-compnay {
+    width: 550px;
+}
+.footer-all-reserved p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+
+.banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+url("../images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px ;
+    margin-top: 50px;
+
+}
+
+.banner .banner-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner .sub-title{
+    color: #fff;
+    font-size: 32px;
+
+}
+.banner .banner-title{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px; 
+}
+
+.offer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.offer-content{
+    margin: 80px 0;
+}
+.offer-title{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;  
+    margin: 48px 0; 
+}
+.offer-subtitle{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 0;
+
+}
+.offer-categories {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.midnight-banner{
+    border-radius: 16px;
+    background: linear-gradient(80deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px ;
+    margin-top: 50px;
+    
+}
+
+.midnight-group{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midnight-content{
+    color: #fff;
+    width: 642px;
+   
+}
+.midnight-content .banner-title{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    margin: 20px 0;
+
+}
+.midnight-content .banner-text{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin: 40px 0;
+}
+.btn {
+    background: none;
+    border: none;
+ 
+}
+.btn a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.new-park-banner{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 482px ;
+    margin-top: 50px;
+
+}
+.new-park-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 130px 0;
+}
+.place , .date , .time{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; 
+    text-transform: capitalize;
+}
+.place-text, .date-text, .time-text{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.btn-newpark{
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    margin: 30px 0;
+}
+.btn-newpark a{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.new-best-offer{
+    display: flex;
+    align-items: center;
+}
+.comming-soon{
+   width: 393px;
+}
+.new-best-offer-subtitle{
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+.new-best-offer-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 22px 0;
+}
+.new-best-offer-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.comming-soon-2024{
+    width: 276px;
+}
+.comming-soon-img{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    text-align: center;
+    padding: 30px;
+
+   
+}
+.comming-soon-img .img{
+    width: 100%;
+
+    
+}
+.comming-soon-2024 .title-2024{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+   
+}
+.comming-soon-2024 .text-2024{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin: 22px 0;
+
+}
+.holyday-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.holyday-subtitle{
+    color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+
+}
+.holyday-title{
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+.holyday-color{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+ 
+}
+.holyday-text{
+color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+margin: 20px 0;
+}
+.holyday-img-banner{
+    margin: 25px 0;
+}
+.holyday-img-banner{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+.portfolio-content{
+    width: 896px;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-subtile{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.portfolio-title {color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.portfolio-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+
+}
+.portfolio-card{
+    display: flex;
+    flex-direction: row;
+
+    .card {
+        width: 100%;
+        background-color: #fff;
+        border-radius: 16px;
+        overflow: hidden;
+        padding: 30px;
+    }
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
